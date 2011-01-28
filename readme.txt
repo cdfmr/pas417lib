@@ -9,11 +9,22 @@ PDF417, and this is the pascal/delphi translation of PDF417Lib.
 Files
 ----------------------------------------------------------------
 
-pdf417lib.pas    - the generation code
-pdf417libimp.pas - for internal use
-pdf417.dpr       - a simple demo
-vcl              - a vcl control
-activex          - an activex control based on the vcl control
+src/pdf417lib.pas    - the generation code
+src/pdf417libimp.pas - internal logic code
+
+----------------------------------------------------------------
+Extras:
+----------------------------------------------------------------
+
+vcl/                 - VCL control
+activex/             - OCX control
+
+----------------------------------------------------------------
+Demos:
+----------------------------------------------------------------
+
+demos/postscript - a simple demo
+demos/vcldemo    - demonstration of VCL control usage
 
 ----------------------------------------------------------------
 Compatibility
@@ -23,8 +34,16 @@ Borland Delphi 7 and Free Pascal 2.2.4 are supported. The vcl
 control and the activex control are not compatible with Free
 Pascal.
 
-Any version of Delphi later than Delphi 7 should work, except
-Delphi 2009 and later because of the Unicode issues.
+Any version of Delphi later than Delphi 7 should work.
+
+----------------------------------------------------------------
+Bugs and support
+----------------------------------------------------------------
+
+Please submit any bugs or enhancement requests by using Google
+Code issue tracker:
+
+https://code.google.com/p/pas417lib/issues/list
 
 ----------------------------------------------------------------
 Author
