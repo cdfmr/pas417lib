@@ -32,7 +32,7 @@ requires
 
 contains
   PDF417Barcode in 'PDF417Barcode.pas',
-  pdf417lib in '..\pdf417lib.pas',
-  pdf417libimp in '..\pdf417libimp.pas';
+  pdf417lib in '..\src\pdf417lib.pas',
+  pdf417libimp in '..\src\pdf417libimp.pas';
 
 end.

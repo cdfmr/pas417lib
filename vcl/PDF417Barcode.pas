@@ -327,7 +327,7 @@ begin
   end;
   
   pdf417init(@p);
-  p.text := PChar(textstring);
+  p.text := PAnsiChar(AnsiString(textstring));
 
 {$IFDEF ACTIVEX}
   if FAutoErrorLevel then
