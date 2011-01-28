@@ -58,6 +58,8 @@
 			<DCCReference Include="About.pas">
 				<Form>PDF417BarcodeAbout</Form>
 			</DCCReference>
+			<DCCReference Include="..\src\pdf417lib.pas"/>
+			<DCCReference Include="..\src\pdf417libimp.pas"/>
 			<RidlCompile Include="PDF417.ridl"/>
 			<BuildConfiguration Include="Debug">
 				<Key>Cfg_2</Key>
