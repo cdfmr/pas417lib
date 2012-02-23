@@ -51,6 +51,6 @@ Author
 
 Project:           http://sourceforge.net/projects/pdf417lib/
 Creator:           Paulo Soares (psoares@consiste.pt)
-Pascal Translator: Lin Fan (http://code.google.com/p/pas417lib/)
+Pascal Translator: Lin Fan (https://github.com/cdfmr/pas417lib)
                    Leonardo Herrera (Unicode fixes & vcl demo)
 License:           LGPL or MPL 1.1
